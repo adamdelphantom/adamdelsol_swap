@@ -6,6 +6,14 @@ This repo is the solana program repo.
 
 Setup and Client is located here: https://github.com/adamdelsol/longboard
 
+### Program Steps
+
+- client initiates swap by sending token b to program
+- create program's account for token b (client or program?)
+- program calculates amount of token a to send in return (1 for 1, for now)
+- program creates account for token a for client
+- transfer authority for account to client
+
 ### Bootstrap phase:
 
 - create admin wallet (longboard)
